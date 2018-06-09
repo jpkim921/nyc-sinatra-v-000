@@ -1,6 +1,5 @@
 class FiguresController < ApplicationController
 
-<<<<<<< HEAD
   get '/figures/new' do
     erb :'/figures/new'
   end
@@ -54,6 +53,4 @@ class FiguresController < ApplicationController
     redirect "/figures/#{@figure.id}"
   end
 
-=======
->>>>>>> 32642b0f48d0690af3a71081cb99aa7b7fcd0ae9
 end
